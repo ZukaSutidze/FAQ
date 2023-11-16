@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Chivo&family=Kumbh+Sans:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(180deg, #B068E9 0%, #6463E7 0%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Kumbh Sans';
+    width: 100%;
+    height: 100%;
+}
+
+.Background{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 375px;
+    height: 762px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, #B068E9 0%, #6463E7 100%);
+}
+
+.Whitebox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 148px;
+    width: 327px;
+    height: 535px;
+    border-radius: 23px;
+    background: #FFF;
+    box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.50);
+}
+
+.Women{
+  position: absolute;
+  top: 40px;
+  left: 45px;
+}
+
+.Shadow{
+    position: absolute;
+    left: 72px;
+    top: 147px;
+}
+
+
+.Faq{
+    color: #1E1F36;
+    font-family: 'Kumbh Sans';
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 132px;
+    margin-left: 105px;
+}
+
+.Team{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    width: 279px;
+    height: 34px;
+    margin-top: 20px;
+    border-bottom: 1px solid #E8E8EA;
+}
+
+
+.Howmany{
+    color: #4B4C5F;
+    font-family: 'Kumbh Sans';
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.Bold{
+    color: #1E1F36;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+
+
+.Rotate{
+    transform: rotate(180deg);
+    transition: all 1s;
+}
+
+.Arrow{
+    transition: all 1s;
+}
+
+.Nomore{
+    display: none;
+    width: 279px;
+    color: #787887;
+    font-family: 'Kumbh Sans';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 13px;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.Appear{
+    display: flex;
+    position: absolute;
+    transition: all 1s;
+    top:50%;
+    border-bottom: 1px solid #E8E8EA;
+    opacity: 1;
+    max-height: 100px; 
+}
+
+
+.Bottom{
+    margin-bottom:10%;
+    border: none;
+}
+
+.Top{
+    margin-bottom:0%;
+    border-bottom: 1px solid #E8E8EA;
+}
+
+.Desktop{
+    display: none;
+}
+
+.Howmany{
+    font-size: 14px;
+}
+
+
+
+
+

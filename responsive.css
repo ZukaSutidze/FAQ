@@ -1,0 +1,82 @@
+@media (width > 1439px) {
+    .Mobile{
+        display: none;
+    }
+
+    .Desktop{
+        display: flex;
+    }
+
+    .Background{
+        width: 100%;
+    }
+
+    .Whitebox{
+        width: 920px;
+        position: relative;
+        height: 509px;
+        border-radius: 23px;
+        background: #FFF;
+        box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.50);
+    }
+    
+    .DesktopWomen{
+        position: absolute;
+        left: -1px;
+        top: 70px;
+        z-index: 10 ;
+    }
+
+    .Orangebox{
+       position: absolute;
+       top: 210px;
+       left: -70px;
+       z-index: 11;
+    }
+
+    .DesktopShadows{
+        position: absolute;
+        left: 0px;
+        bottom: -80px;
+    }
+    
+    .Faq{
+        margin-top: 0;
+        margin-left: 0;
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    .Team{
+        width: 350px;
+        height: 35px;
+    }
+
+    .Alltext{
+        position: absolute;
+        top: 65px;
+        left: 475px;
+    }
+
+    .Nomore{
+        width: 350px;
+        color: #787887;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 150%;
+    }
+
+    .Appear{
+        display: flex;
+        position: absolute;
+        top:55%;
+        border-bottom: 1px solid #E8E8EA;
+    }
+
+    .Howmany:hover{
+        cursor: pointer;
+        color: #F47B56;
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
